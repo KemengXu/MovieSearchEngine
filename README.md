@@ -1,11 +1,10 @@
 ## This is the project in Computer System course
-## See [instruction page](https://course.ccs.neu.edu/cs5007su19-seattle/assignments/a9.html) for all the details! 
-## Some Files: 
-* ```FileParser```: Responsible for reading in a file, checking for errors, and parse out movies.
-* ```Movie```: A struct holding all the Movie info (id, title, type, genre, etc.)
-* ```MovieIndex```: A hashtable that indexes movies according to specified field. Basically wraps a hashtable with functionality specific to adding/removing/destroying with MovieSets. The key is the description for the document set, and the value is the document set.
-* ```MovieReport```: Responsible for printing out a report given a MovieIndex, to the command line or file.
-* ```MovieSet```: A set of Movies that are connected somehow: they have the same value for a given field. If the field is Year, all the movies in the set are made in the same year. It consists of a description and a LinkedList of Movies.
+### See [instruction page](https://course.ccs.neu.edu/cs5007su19-seattle/assignments/a9.html) for all the details! 
+## WHAT DOES THE OVERALL SYSTEM LOOK LIKE?
+#### The following picture is an overview of the entire system:
+![Image of system](https://github.com/KemengXu/MovieSearchEngine/blob/master/Whole.png)
+#### The following picture shows the core data structure:
+![Image of MovieTitleIndex](https://github.com/KemengXu/MovieSearchEngine/blob/master/MovieTitleIndex.png)
 ##### for more info please see the files' documentation
 ### notes
   * Use hashtable inside hashtable, and use fileId and rowId to improve time complexity
