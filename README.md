@@ -5,6 +5,8 @@
 ![Image of system](https://github.com/KemengXu/MovieSearchEngine/blob/master/Whole.png)
 #### The following picture shows the core data structure:
 ![Image of MovieTitleIndex](https://github.com/KemengXu/MovieSearchEngine/blob/master/MovieTitleIndex.png)
+#### The following picture shows the protocol between server and client:
+![Image of QueryProtocol](https://github.com/KemengXu/MovieSearchEngine/blob/master/QueryProtocol.png)
 ##### for more info please see the files' documentation
 ### notes
   * Use hashtable inside hashtable, and use fileId and rowId to improve time complexity
